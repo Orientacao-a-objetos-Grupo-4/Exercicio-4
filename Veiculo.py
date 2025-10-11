@@ -1,5 +1,4 @@
 class veiculo:
-    # Apenas placa e valor são obrigatórios na inicialização
     def __init__(self, placa, valor, alugado=False):
         self.__placa = placa
         self.__valor = valor

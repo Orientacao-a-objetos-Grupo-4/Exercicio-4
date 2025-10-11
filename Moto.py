@@ -1,17 +1,12 @@
 from Veiculo import veiculo
 class moto(veiculo):
-    def __init__(self, placa, valor, alugado, histórico, calcularAluguel):
-        super().__init__(placa, valor, alugado, histórico)
-        self.__calcularAluguel = calcularAluguel
+    def __init__(self, placa, valor):
+        super().__init__(placa, valor)
 
-    def get_valorAluguel(self):
-        return self.__calcularAluguel
-    def set_valorAluguel(self, calcularAluguel):
-        self.__calcularAluguel = calcularAluguel
-
-    def __str__(self):
-        return (f"Placa: {self.get_placa()}\n"
-                f"Valor: {self.get_valor()}\n" 
-                f"Valor do Aluguel: {self.get_valorAluguel()}\n"
-                f"Alugado: {self.get_alugado()}\n"
-                f"Histórico: {self.get_histórico()}\n") 
+    def calcularAluguel(self, dias):
+        valorAluguel = self.get_valor() * dias 
+        if dias >= 30:
+            valorAluguel *= 1.10
+        else:
+            valorAluguel *= 1.20
+        return valorAluguel
