@@ -1,5 +1,20 @@
 #Importando as classes
 from Moto import moto
+from Carro import carro
+from Cliente import cliente
+
+# Criando Instancia de Cliente
+print("----- Cliente ------")
+cliente = cliente("Pedro Paulo")
+print(cliente)
+
+# Criando Carro
+print("---- Carro -----")
+carro = carro("Honda Fit","ABC-1234",50.00)
+diasCarro = 5
+aluguelCarro = carro.Calcular_Aluguel(diasCarro);
+print(f"Cálculo para {diasCarro} dias: R${aluguelCarro:.2f} (Diária: R${carro.get_valor():.2f})")
+print(carro)
 
 # Criando instâncias de moto
 moto1 = moto("MOT-3421", 30.00) 
