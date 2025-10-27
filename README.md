@@ -10,10 +10,11 @@
 ## 📊 Diagrama de Classes
 
 Observe o diagrama abaixo, que apresenta os conceitos de **herança** e **associação** entre classes:  
-<img width="512" height="1280" alt="image" src="https://github.com/user-attachments/assets/c5051d4d-f289-46f6-868c-2af5f884ae28" />
+<img width="494" height="391" alt="Captura de tela 2025-10-26 210227" src="https://github.com/user-attachments/assets/e914cc82-5111-472a-ad45-afe08485cc01" />
+
 
 <br/>
-<img width="495" height="396" alt="image" src="https://github.com/user-attachments/assets/8a0c8928-2e95-4544-afaf-e799f04054ef" />
+<img width="494" height="392" alt="image" src="https://github.com/user-attachments/assets/1c92224b-0bf1-4f19-bf07-3724ff2e2aad" />
 
 ---
 
