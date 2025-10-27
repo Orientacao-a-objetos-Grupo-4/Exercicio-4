@@ -4,6 +4,7 @@ class veiculo:
         self.__valor = valor
         self.__alugado = alugado  
         self.__historico = [] 
+        self.__cliente = None
 
     # --- GETTERS (gets) ---
     def get_placa(self):
@@ -18,6 +19,9 @@ class veiculo:
     def get_historico(self):
         return self.__historico[:]
 
+    def get_cliente(self):
+        return self.__cliente
+        
     # --- SETTERS (sets) ---
     def set_placa(self, nova_placa):
         if len(nova_placa) > 6:
@@ -46,7 +50,9 @@ class veiculo:
         except IndexError:
             print("Índice inválido no histórico.")
             return None
-
+    def set_cliente(self):
+        self.__cliente = cliente
+        
     # --- Métodos de Negócio (Alugar/Devolver ajustados) ---
     def alugar(self, cliente, dias):
         if self.get_alugado():
