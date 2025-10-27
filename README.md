@@ -13,7 +13,7 @@ Observe o diagrama abaixo, que apresenta os conceitos de **herança** e **associ
 <img width="512" height="1280" alt="image" src="https://github.com/user-attachments/assets/c5051d4d-f289-46f6-868c-2af5f884ae28" />
 
 <br/>
-<img width="508" height="407" alt="image" src="https://github.com/user-attachments/assets/ca860b0a-abb3-42e4-bb7f-aae276e9c259" />
+<img width="495" height="396" alt="image" src="https://github.com/user-attachments/assets/8a0c8928-2e95-4544-afaf-e799f04054ef" />
 
 ---
 
