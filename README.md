@@ -12,10 +12,6 @@
 Observe o diagrama abaixo, que apresenta os conceitos de **herança** e **associação** entre classes:  
 <img width="494" height="391" alt="Captura de tela 2025-10-26 210227" src="https://github.com/user-attachments/assets/e914cc82-5111-472a-ad45-afe08485cc01" />
 
-
-<br/>
-<img width="494" height="392" alt="image" src="https://github.com/user-attachments/assets/1c92224b-0bf1-4f19-bf07-3724ff2e2aad" />
-
 ---
 
 ## 🧩 O que devo fazer?
